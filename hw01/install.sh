@@ -3,3 +3,7 @@
 sudo apt-get install python3-tk
 
 pip3 install pygame
+
+#or use
+sudo apt-get install python-pygame
+
