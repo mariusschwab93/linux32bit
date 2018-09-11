@@ -1,4 +1,8 @@
-fourGPIO:
+ATTENTION: Maybe at the execute with "chmod +x" you will get a TabError: inconsistent use 
+of tabs and spaces in indentation. Please execute the python scripts with the comand of "python" version 3 and not
+"chmod +x". 
+
+fourGPIO.py:
 Here you can push four buttons. Ech button could power on one LED.
 LED1=>P9_11 power on Button1=>P9_15
 LED2=>P9_12 power on Button2=>P9_16
@@ -11,7 +15,7 @@ The answers of this you can read in the .txt-File the tables are listing
 in the Excel-Table and in the PDF. I also added a screenshot of the oszilloscop I have it done together with Vinzenz Felder. 
 
 
-Etchasketch GPIO:
+etchasketchGPIO.py:
 
 At first you must say a size of the screen. Be sure, that the size of the 
 screen is not to large or to small.

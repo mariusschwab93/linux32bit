@@ -26,9 +26,8 @@ GPIO.setup(button4, GPIO.IN)
 map = {button1 : LED1, button2 : LED2, button3 : LED3, button4 : LED4}
 
 def updateBoard(channel):			#update the status of the board 
-
 	state = GPIO.input(channel)
-  	GPIO.output(map[channel], state)
+	GPIO.output(map[channel], state)
 
 
 GPIO.add_event_detect(button1, GPIO.BOTH, callback=updateBoard)		#use the function event, so its only have a reaction if something happens. 
@@ -42,7 +41,7 @@ try:
 
 except KeyboardInterrupt:
 	print("Cleaning Up")
-  	GPIO.cleanup()
+	GPIO.cleanup()
 GPIO.cleanup()
 
 #without the event function it is also possible the following:
