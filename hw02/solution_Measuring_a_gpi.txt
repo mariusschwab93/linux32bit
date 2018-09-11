@@ -1,0 +1,27 @@
+In this file you can see the answers for the Measuring a gpio. The table 
+is showing the results with the diagrams of the period/frequenc.
+
+1) Sleeptime = 0.1  U_max= 4.22V  U_min= 3.41V freq= 4.18HZ
+
+2) Period is 4.18 HZ
+
+3) It is 6 HZ close to 100ms
+
+4)The differ is the result of the work from another parallel
+  prozesses.  
+
+5) The are using 1 to 3 prozessors, 31 Tasks and 60 Threads
+
+6) look at the table in the excel file
+
+7) The period is not stable. So it have some changes. At the ./togglegpio.s 
+   it is like a exp-function
+
+8) The period has now 4.3HZ.
+
+9) 
+
+10) No changes
+
+11) The maxiumum is 30HZ. Than the CPU is at the maximum of 100%. 
+
