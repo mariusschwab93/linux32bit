@@ -28,5 +28,10 @@ Button4: go right ->P9_18
 
 with "c" you can clear the screen. With q use the quit. 
 
+========================
+Professor Yoder's Comments
 
+Looks good.  The plots are a nice touch, but be sure to label the axis.
+
+Score:10/10
 
