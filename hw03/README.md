@@ -5,10 +5,10 @@ If the Beaglebone booted new and you use the P8_41 and P8_42 for the encoders, y
 Here is the path: ~/BeagleBoard-exercises/sensors/eQEP$ 
 You also musst install the smbus.(Look at the install.sh) 
 
-With the shell of temp101.sh you can read two temperaturs.
+With the shell of temp101.sh you can read two temperatures.
 The same you can do with the script temp101.py.
  Connect the sensors to the i2c-Bus, like in the Lecture. Should it not work, 
-trie it without the Pull up resistors. The value is print in Fahrenheit. 
+try it without the Pull up resistors. The value is print in Fahrenheit. 
 
 
 With the script of etch88LED.py you can play the game at the 8x8 LEDmatrix. You need four buttons for up/down and left/right, one button 
@@ -19,3 +19,11 @@ You need 2 Encoders for Up/Down and Left/Right.
 One button to quite the game and one button to clear the matrix.
 
 I have done all three tasks. 
+
+========================
+Professor Yoder's Comments
+
+Looks good.  It's easier if you copy the setup.sh to your directory.
+Are you using python2?  That may be why the chmod +x doesn't work.
+
+Score:10/10
