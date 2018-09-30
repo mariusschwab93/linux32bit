@@ -27,3 +27,10 @@ to see the first image (my name written on a white background), you will have to
 
 I have not used pygame before so I did not run this on the display
 
+========================
+Professor Yoder's Comments
+
+Looks good.
+How does your toggle time compare with pervious times?
+
+Score:  9/10

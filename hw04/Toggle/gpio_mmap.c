@@ -9,17 +9,11 @@
 #include "beaglebone_gpio.h"
 
 
-#define GPIO1_START_ADDR 0x4804C000
+#define GPIO1_START_ADDR 0x4804C000   //define Addresse of the GPIO1
 #define GPIO1_END_ADDR 0x4804CFFF
 #define GPIO1_SIZE (GPIO1_END_ADDR - GPIO1_START_ADDR)
 
-#define GPIO3_START_ADDR 0x481AE000
-#define GPIO3_END_ADDR 0x481AEFFF
-#define GPIO3_SIZE (GPIO3_END_ADDR - GPIO3_START_ADDR)
-
-#define USR2 (1<<23)
-
-#define GPIO3_START_ADDR 0x481AE000
+#define GPIO3_START_ADDR 0x481AE000  //define Addresses of the GPIO3
 #define GPIO3_END_ADDR 0x481AEFFF
 #define GPIO3_SIZE (GPIO3_END_ADDR - GPIO3_START_ADDR)
 
@@ -62,12 +56,12 @@ int gpio3Status;
 
 //Check for button presses in the gpio data register
 
-gpio1Status = *gpio1_datain_addr >> 17;
+gpio1Status = *gpio1_datain_addr >> 17;   //define the use of the GPIO Inputs with the shift operator
 gpio1Status=gpio1Status & 0x01;
 gpio3Status= *gpio3_datain_addr >> 21;
 gpio3Status=gpio3Status & 0x01;
 
-//The switches used pull down to ground, so only turn on the internal LEDs if t$
+//The switches used pull down to ground, so only turn on the internal LEDs
 
 if(gpio1Status==0){
 

@@ -5,3 +5,10 @@
 # You should push the down/up/left or right button on your keyboard. 
 
 #With the space you delete your picture. With Escape you are closing the window.  
+
+========================
+Professor Yoder's Comments
+
+That's better.  Thanks...
+
+Score:  7/10
