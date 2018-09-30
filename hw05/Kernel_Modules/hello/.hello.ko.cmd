@@ -1,0 +1,1 @@
+cmd_/home/debian/linux32bit/hw05/hello/hello.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/debian/linux32bit/hw05/hello/hello.ko /home/debian/linux32bit/hw05/hello/hello.o /home/debian/linux32bit/hw05/hello/hello.mod.o ;  true

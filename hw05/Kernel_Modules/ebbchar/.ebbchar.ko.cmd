@@ -1,0 +1,1 @@
+cmd_/home/debian/exploringBB/extras/kernel/ebbchar/ebbchar.ko := ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/debian/exploringBB/extras/kernel/ebbchar/ebbchar.ko /home/debian/exploringBB/extras/kernel/ebbchar/ebbchar.o /home/debian/exploringBB/extras/kernel/ebbchar/ebbchar.mod.o ;  true
