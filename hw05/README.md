@@ -3,7 +3,7 @@ Done. I'am in the list.
 
 make:
 You can run the makefile with the comand "bone$ make". It build an 
-app.arm. Run the app.arm wirht "bone$ ./app.arm" you wil see 
+app.arm. Run the app.arm wirht "bone$ ./app.arm" you will see 
 "Hello World". I done part 1 and 2. 
 
 Installing the Kernel Source: 
@@ -26,3 +26,11 @@ Use the comand "make", after that "sudo insmod gpio_test.ko". If you push the bu
 
 The "ebbchar" folder is a LKM to communicate with the Kernel. This is the result of the tutorial part 2 from Molloy.  
 
+========================
+Professor Yoder's Comments
+
+Looks good.  
+
+I don't see where you compiled a new kernel and got it installed.
+
+Score:  8/10
