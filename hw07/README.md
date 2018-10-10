@@ -10,3 +10,10 @@ and off. The smartohone communicate with the Beagle over server or router.
 
 With the server_leds.js you use the duty_cycle. You can dim the LED on the 
 Beagle from your Mobilephone. For this LED I use the PIN9_14.   
+
+========================
+Professor Yoder's Comments
+
+Score:  10/10
+
+Need project Executive Summary.
