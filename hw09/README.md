@@ -20,3 +20,11 @@ and "bone$ make".
 5.9. Reading an Input at Regular Intervals
 For this exercise you find the code in folder 05blocks. You run the code pwm5.c with the comands "bone$ source input_setup.sh"
  and "bone$ make".
+
+========================
+Professor Yoder's Comments
+
+Those are the results I was expecting.
+I suggest running an English spell checker on your files.
+
+Score:  10/10
