@@ -1,6 +1,6 @@
 I have added a PDF file where you can see the milestones of the project.
 
-I used one sensor. During recording, the temperature has not changed. 
+I used one sensor. During recording, the temperature has not changed. There are no obvious findings. I ran the program for about 15 minutes.
 I've added images and the link to the data sheet.
 
 https://docs.google.com/spreadsheets/d/1iKjDevHe4dXBhBA3MGjkjRaQbXz19Y_RU5uzwrw4kqY/edit?usp=sharing
