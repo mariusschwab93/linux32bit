@@ -16,4 +16,4 @@ Milestones look good.  Your dates are out of order.
 I'd like you to demo this to me showing it responding to temp changes before
 giving you more points.
 
-Score:  5/10
+Score:  8/10
